@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std; 
+
+int main(){
+//declaracion de variables
+int a,b,c;
+cout<< "ingresar a distinto a cero";
+cin>> a;
+cout<< "ingresar b distinto a cero";
+cin>> b;
+cout<< "ingresar c distinto a cero";
+cin>> c;
+
+
+ if( a==0){
+cout<<" b es distinto a cero "
+
+ }else {
+    if(a>0 && a)
+ }
+
+
+
+return 0
+}
