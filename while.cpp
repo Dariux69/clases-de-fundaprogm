@@ -2,22 +2,25 @@
 using namespace std;
  
  int main(){
- int numero1 [10];
+   int numero=0,suma=0,posicion=0;
+   int sumatoria [25] ={0};
 
- cout<<" ingrese primer numero "<<endl;
- cin>>numero1;
- for(int i=0; i<=10;i++){
-    cout
- }
- cout<<" ingrese el segundo numro "<<endl;
- cin>>numero1;
- for()
- while(numero1 >=0){
-    int arreglo[10]
- }
+ cout<<" ingrese un numero entero "<<endl;
+ cin >> sumatoria[posicion];
+   
+      while(sumatoria[posicion]>=0){
 
-acordate anderson que primero tenemos que pedir los numero y el for lo aplicaremos de ultimo y
- dspues de pedir el dato sigue un whilñe para declarar la condicion que el numero no debe de ser menor que 0 es decir un numero negativo
+         
+         cout<<" ingrese otro numero"<<endl;
+         posicion++;
+         cin >> sumatoria[posicion];
 
+      }
+
+         for(int i=0;i<posicion;i++){
+            suma = suma + sumatoria[i];
+         }
+         cout<<"La suma total es: "<<suma;
+   
  return 0;
  }  
